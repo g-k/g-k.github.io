@@ -1,0 +1,39 @@
+What is an AST?
+What can I do with an AST? / How do I use the Python ast module?
+
+* Python Tools ASTs on continuum from "what did I write?"/grep to "what does it do?"
+
+
+* Use Cases:
+# summary of modules using iter_child_nodes (summary.py)
+# find all print statements and print containing variables (find_prints.py)
+# fix names Async? in pysnmp/check API (use name privatizer instead fix_asyn.py)
+
+* Extending the NodeVisitor with restack
+* Event Graph
+
+
+* Other Things:
+run aspell on names corrector (name_corrector.py)
+pyreverse UMLs
+Analysis - ghetto big O notation
+Optimization - remove code from loops, etc.
+
+
+# Next Time
+
+* Problems with Python being dynamic
+Corrections and Failings
+   f = f2
+   generated code
+
+
+* Python Compilation Process
+Source code .py file -(Tokenizer Lexer)->
+Concrete Syntax Tree / Parse Tree -->
+AST -(parser)->
+Python Bytecode .pyc (use dis)
+
+* Python Package Analysis (is it a binding? degree distribution and important stuff use NetworkX etc.)
+
+* Call graph try mocking out all other external functions and exec all functions to see what they call
