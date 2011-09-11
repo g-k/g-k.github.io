@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+
+Ctrl+Shift+L and Click to change bitrate
+
+Ctrl+Shift+Alt+D Show Diagnostics
+Ctrl+Shift+Alt+S Change Bitrate
+
+Ctrl+Shift+Alt+M = Diagnostic menu
+Ctrl+Shift+Alt+P = Player Info
+Ctrl+Shift+Alt+L = Logging
+Ctrl+Shift+Alt+C = (debug numbers in top left)
+
+http://www.reddit.com/r/NetflixBestOf/comments/k4rg4/netflix_users_some_useful_keyboard_shortcuts_to/

@@ -1,0 +1,3 @@
+In HTML5 scripts have an async attribute:
+
+http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting-1.html
