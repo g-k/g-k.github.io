@@ -1,0 +1,35 @@
+div header, p, div, article * {
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+article p {
+    text-indent: 2em;
+}
+
+pre { margin: 0; padding: 0; }
+code * { font-size: 1.25em; font-family: monospace; }
+body * { font-family: 'Goudy Bookletter 1911', serif; }
+
+footer, header { text-align: center; clear: both; }
+
+blockquote, code {
+    display:block;
+    border-left:5px solid #ddd;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+a { color: dodgerblue; text-decoration: none; }
+a:hover { color: tomato; }
+a:visited { color: darkpurple; }
+
+#center { width: 30em; margin: auto; }
+#center-head a {
+    font-family: 'Neucha', arial, sans-serif;
+    font-weight: normal;
+    color: darkorange;
+    font-size: 2em;
+}
+#mitten { color: purple; margin-left: 10px; }
+#mitten-quote { margin: 0; font-family: Monospace; }
+#center-head h1 { margin-bottom: 0; }
