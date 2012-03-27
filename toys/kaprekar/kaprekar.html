@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kaprekar's Routine</title>
+    <script type="text/javascript"
+	    src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="modernizr-1.6.min.js"></script>
+    <script src="k.js"></script>
+    <style>
+      * { font-family: monospace; }
+      .number {
+      font-size: 4em;
+      border: solid 1px gray;
+      text-align: right;
+      padding: 5px;
+      }
+      #input { width: 70% }
+      ul { list-style-type: none; }
+      th, td { padding: 0 10px; font-size: 2em; }
+    </style>
+  </head>
+  <body>
+    <h1>Kaprekar's Routine</h1>
+
+    <noscript>Please enable Javascript.</noscript>
+
+    <div id="input">
+      Base/Radix:
+      <select id="base" disabled="true">
+	<option>1
+	<option>2 (binary)
+	<option>3
+	<option>4
+	<option>5
+	<option>6
+	<option>7
+	<option>8 (octal)
+	<option>9
+	<option selected>10 (decimal)
+	<option>11
+	<option>12
+	<option>13
+	<option>14
+	<option>15
+	<option>16 (hexadecimal)
+      </select>
+      <p>Starting value:</p>
+      <input id="seed" class="number" type="number" value="9001">
+    </div>
+
+    <div id="result">
+      <table>
+	<thead>
+	  <tr><th>Number</th><th>Steps</th><th>Path</th></tr>
+	</thead>
+	<tbody></tbody>
+      </table>
+    </div>
+
+  </body>
+</html>
