@@ -1,5 +1,6 @@
 // 6174.js
-// requires Javascript version >= 1.7
+//
+// TODO: Bug fails for two digit long sequences
 
 function kaprekate(seed) {
     // returns an iterator converging to 6174
