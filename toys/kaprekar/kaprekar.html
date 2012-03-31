@@ -4,20 +4,50 @@
     <title>Kaprekar's Routine</title>
     <script type="text/javascript"
 	    src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="modernizr-1.6.min.js"></script>
+    <script type="text/javascript"
+	    src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.8.1/d3.v2.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.1/underscore-min.js"></script>
     <script src="k.js"></script>
     <style>
-      * { font-family: monospace; }
-      .number {
-      font-size: 4em;
-      border: solid 1px gray;
-      text-align: right;
-      padding: 5px;
-      }
-      #input { width: 70% }
-      ul { list-style-type: none; }
-      th, td { padding: 0 10px; font-size: 2em; }
+body {
+  font: 14px Helvetica Neue;
+  text-rendering: optimizeLegibility;
+  margin-top: 1em;
+  overflow-y: scroll;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
     </style>
   </head>
   <body>
@@ -45,8 +75,7 @@
 	<option>15
 	<option>16 (hexadecimal)
       </select>
-      <p>Starting value:</p>
-      <input id="seed" class="number" type="number" value="9001">
+      <p>Starting value: <input id="seed" class="number" type="number" value="9001">
     </div>
 
     <div id="result">
@@ -57,6 +86,8 @@
 	<tbody></tbody>
       </table>
     </div>
+
+    <div id="graph"></div>
 
   </body>
 </html>
