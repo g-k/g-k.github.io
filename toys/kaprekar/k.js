@@ -14,8 +14,11 @@ $(function () {
 	    var k;
 
 	    k = result[iteration];
+			// Drop the doubled last entry
+			result = _.uniq(result);
+
 	    $out.prepend('<tr><td>' + result[0] + 
-			'</td><td>' + (result.length - 2) + '</td><td>' + 
+			'</td><td>' + (result.length-1) + '</td><td>' + 
 			result.join(' -> ') + 
 			'</td></tr>');
 	};
