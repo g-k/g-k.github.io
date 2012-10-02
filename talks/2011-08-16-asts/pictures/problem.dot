@@ -1,8 +1,0 @@
-digraph {
-	rankdir=LR
-	"spam" -> Queue [label="Fry Well"];
-	"eggs" -> Queue [label="Over Easy"];
-	"corned_beef_hash" -> Queue [label="Browned"];
-	Queue -> "Philip J. Fryer" [label="Fry Well"];
-	Queue -> "Sir Eggsalot" [label="Over Easy"];
-}
