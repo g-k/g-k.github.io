@@ -23,7 +23,7 @@ a { color: dodgerblue; text-decoration: none; }
 a:hover { color: tomato; }
 a:visited { color: darkpurple; }
 
-#center { width: 30em; margin: auto; }
+.centered { width: 30em; margin: auto; }
 #center-head a {
     font-family: 'Neucha', arial, sans-serif;
     font-weight: normal;
