@@ -1,3 +1,0 @@
-From hackernews:
-"I'm happily using Backbone.js on several projects on the client side, including with VIE: https://github.com/bergie/VIE
-One of the cool things is that Backbone models and views can be quite easily used also on the server-side with Node.js. In some applications both sides use the same models, with Backbone.sync being the difference - on client you communicate with AJAX, on server you communicate with a custom database connector."
