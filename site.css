@@ -33,3 +33,7 @@ a:visited { color: darkpurple; }
 #mitten { color: purple; margin-left: 10px; }
 #mitten-quote { margin: 0; font-family: Monospace; }
 #center-head h1 { margin-bottom: 0; }
+
+ul { list-style: none; padding:0;  margin:0; }
+li { padding-left: 1em; text-indent: -1em; }
+li:before { content: '\226B'; padding-right: 7px; }
