@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<meta http-equiv="content-type" content="text/html" charset="utf-8">
+<html lang="en">
+  <head>
+    <link rel="index" title="g-k" href="/">
+    <title>g-k</title>
+
+    <link href="//fonts.googleapis.com/css?family=Goudy+Bookletter+1911"
+	  rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Neucha"
+          rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu"
+          rel="stylesheet" type="text/css">
+    <link href="site.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="centered">
+    <header id="center-head">
+      <h1><a href="/">Nose<span id="mitten">Mitten</span></a></h1>
+      <div id="mitten-quote">"You too can have a nose mitten" - $fortune</div>
+    </header>
+
+    <section>
+      <header><h3 id="Toys">Toys</h3></header>
+      <ul>
+	    <li><a href="http://bl.ocks.org/d/3816099/">Boustrophedon</a>
+	    <!-- <li><a href="toys/kaprekar/kaprekar.html">Kaprekar's Number</a> -->
+      </ul>
+    </section>
+
+    <section>
+      <header><h3 id="talks">Talks</h3></header>
+      <ul>
+	<li><a href="/backbone-talk">fleshing-out-backbone.coffee</a>
+	  Note:
+	  <a href="http://opensoul.org/blog/archives/2012/05/16/the-plight-of-pinocchio/">The Plight Of Pinocchio</a>
+	  <a href="http://arturadib.com/hello-backbonejs/"></a>
+      </ul>
+    </section>
+
+    <section>
+      <header><h3 id="notes">Gists and Notes</h3></header>
+      <ul>
+{{#each gists}}
+<li>
+  <a href="{{this.html_url}}">
+  {{#if this.description}}{{this.description}}{{else}}{{this.id}}{{/if}}
+  </a>
+</li>
+{{/each}}
+      </ul>
+    </section>
+
+  </body>
+</html>
