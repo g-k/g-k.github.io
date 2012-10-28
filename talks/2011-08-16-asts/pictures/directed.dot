@@ -1,0 +1,10 @@
+digraph {
+
+	rankdir=LR;
+	R [color=red];
+	Y [color=yellow];
+	G [color=green];
+      R -> Y;
+      Y -> G;
+      G -> R;
+}
