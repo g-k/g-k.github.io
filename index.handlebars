@@ -28,6 +28,22 @@
     </section>
 
     <section>
+      <header><h3 id="projects">Projects</h3></header>
+      <ul>
+{{#each repos}}
+{{#if this.fork}}
+{{else}}
+<li>
+  <a href="{{this.html_url}}">
+    {{this.name}}{{#if this.description}} - {{this.description}}{{/if}}
+  </a>
+</li>
+{{/if}}
+{{/each}}
+      </ul>
+    </section>
+
+    <section>
       <header><h3 id="talks">Talks</h3></header>
       <ul>
 	<li><a href="/backbone-talk">fleshing-out-backbone.coffee</a>
