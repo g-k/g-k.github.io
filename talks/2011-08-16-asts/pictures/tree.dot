@@ -1,6 +1,0 @@
-digraph {
-	rankdir=LR
-	Root -> Child;
-	Root -> "Favorite Child";
-	Child -> Grandchild;
-}
