@@ -1,29 +1,37 @@
 * {
-   font-family: monospace;
-   font-size: 1.1em;
+    font-family: monospace;
+    font-size: 1.1em;
 }
 header {
-   font-size: 2.5em;
-}
-.dot {
-   float: right;
+    font-size: 2.5em;
+    padding-top: 0.2em;
 }
 a {
-   color: steelblue;
-   text-decoration: none;
+    color: steelblue;
+    text-decoration: none;
+    font-size: 0.9em;
 }
 a:hover {
-   color: tomato;
+    color: tomato;
+    border-bottom: 2px tomato dashed;
 }
 a:visited {
-   color: darkpurple;
+    color: darkpurple;
+}
+.top-item {
+    padding: 0em 1em 1em;
 }
 ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
+    list-style: none;
+    padding: 0.2em 0;
+    margin: 0;
+}
+ul ul {
+    padding: 0em 0;
+    font-size: 0.9em;
 }
 li {
-   padding-left: 1em;
-   text-indent: 0em;
+    padding-top: 0em;
+    padding-left: 1em;
+    text-indent: 0em;
 }
