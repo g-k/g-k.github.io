@@ -31,7 +31,11 @@ ul ul {
     font-size: 0.9em;
 }
 li {
-    padding-top: 0em;
+    padding-top: 0.2em;
     padding-left: 1em;
     text-indent: 0em;
+}
+.subtitle {
+    font-size: 0.6em;
+    padding-left: 2em;
 }
