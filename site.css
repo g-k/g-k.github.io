@@ -1,4 +1,4 @@
-* {
+body {
     font-family: monospace;
     font-size: 1.1em;
 }
@@ -16,7 +16,7 @@ a:hover {
     border-bottom: 2px tomato dashed;
 }
 a:visited {
-    color: darkpurple;
+    color: purple;
 }
 .top-item {
     padding: 0em 1em 1em;
@@ -38,4 +38,15 @@ li {
 .subtitle {
     font-size: 0.6em;
     padding-left: 2em;
+}
+@media screen and (prefers-color-scheme: dark) {
+     header, li {
+        filter: invert(80%);
+     }
+     a, a:visited, a:hover {
+        filter: invert(100%);
+     }
+     body {
+         background-color: black;
+     }
 }
